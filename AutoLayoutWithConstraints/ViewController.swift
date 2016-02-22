@@ -29,8 +29,11 @@ class ViewController: UIViewController {
         
         view.addSubview(redBox)
         
-        
-    
+        redBox.topAnchor.constraintEqualToAnchor(view.topAnchor).active
+         = true
+        redBox.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor).active = true
+        redBox.leftAnchor.constraintEqualToAnchor(view.leftAnchor).active = true
+        redBox.rightAnchor.constraintEqualToAnchor(view.rightAnchor).active = true
     
     }
 
