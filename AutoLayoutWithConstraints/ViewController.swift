@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         redBox.leftAnchor.constraintEqualToAnchor(view.leftAnchor)
         redBox.rightAnchor.constraintEqualToAnchor(view.rightAnchor)
         
+        redBox.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(redBox)
+        
         
     
     
