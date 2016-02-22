@@ -13,6 +13,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+    // we create a simple UIView
+        
+        let redBox = UIView()
+        
+        redBox.backgroundColor = UIColor.redColor()
+        
+        redBox.topAnchor.constraintEqualToAnchor(view.topAnchor)
+        redBox.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor)
+        redBox.leftAnchor.constraintEqualToAnchor(view.leftAnchor)
+        redBox.rightAnchor.constraintEqualToAnchor(view.rightAnchor)
+        
+        
+    
+    
     }
 
     override func didReceiveMemoryWarning() {
